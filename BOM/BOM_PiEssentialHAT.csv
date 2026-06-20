@@ -1,5 +1,5 @@
 Item No.,Item Name,Description,Quantity,Price per Unit ($),Total Price ($),Link
-1,VL53L9CXV0VE/1,3D Time-of-Flight LiDAR Sensor,1,—,—,https://www.lcsc.com/product-detail/C9900262238.html
+1,VL53L9CXV0VE/1,3D Time-of-Flight LiDAR Sensor,1,43.0000,43.0000,https://www.mouser.com/ProductDetail/STMicroelectronics/VL53L9CXV0VE-1?qs=Omd18uQ5iJFry6Pb1UJSJQ%3D%3D&srsltid=AfmBOoqRi5wwSweoIb8s_sqEm8-WuWW6U-xvfQeSukjqe56Ym1_xWBd4
 2,VEML7700-TR,Ambient Light Sensor I2C,1,0.1073,0.1073,https://www.lcsc.com/product-detail/C504893.html
 3,BNO080,9-DOF IMU with sensor fusion,1,0.3798,0.3798,https://www.lcsc.com/product-detail/C717991.html
 4,CL03A104KO3NNNC,100nF 0201 Ceramic Capacitor,22,0.0005,0.0110,https://www.lcsc.com/product-detail/C307380.html
@@ -31,5 +31,5 @@ Item No.,Item Name,Description,Quantity,Price per Unit ($),Total Price ($),Link
 30,AMS1117-1.2V,LDO 1.2V 1A SOT-223,1,0.0851,0.0851,https://www.lcsc.com/product-detail/C14529.html
 31,AMS1117-1.8V,LDO 1.8V 1A SOT-223,1,0.0078,0.0078,https://www.lcsc.com/product-detail/C7380514.html
 32,SC-32S 32.768kHz,32.768kHz Crystal Oscillator,1,0.0269,0.0269,https://www.lcsc.com/product-detail/C97606.html
-33,Custom PCB,Pi Essential HAT PCB - JLCPCB 5pcs,5,1.0000,5.0000,https://jlcpcb.com
-,GRAND TOTAL,,,,$12.2810,
+33,Custom PCB,Pi Essential HAT PCB - JLCPCB 5pcs,5,1.0000,5.0000,-
+,GRAND TOTAL,,,,$55.2810,
