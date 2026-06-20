@@ -1,5 +1,4 @@
 Item No.,Item Name,Description,Quantity,Price per Unit ($),Total Price ($),Link
-*,Raspberry Pi 4/5,NOT INCLUDED - 40-Pin GPIO HAT,1,NOT INCLUDED,NOT INCLUDED,https://www.raspberrypi.com/products/
 1,VL53L9CXV0VE/1,3D Time-of-Flight LiDAR Sensor,1,—,—,https://www.lcsc.com/product-detail/C9900262238.html
 2,VEML7700-TR,Ambient Light Sensor I2C,1,0.1073,0.1073,https://www.lcsc.com/product-detail/C504893.html
 3,BNO080,9-DOF IMU with sensor fusion,1,0.3798,0.3798,https://www.lcsc.com/product-detail/C717991.html
