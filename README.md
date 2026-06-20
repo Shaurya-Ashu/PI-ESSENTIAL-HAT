@@ -52,6 +52,72 @@ The GPS Module is a L76X with UART communication and a active anntena is require
 The GPS Module is a L76X with UART communication and a active anntena is required for its working .
 <img width="573" height="294" alt="Screenshot 2026-06-21 at 4 22 52 AM" src="https://github.com/user-attachments/assets/5a7bc514-45fb-406d-afaf-a34499e3a086" />
 
+# Pin Mapping 
+| Physical Pin | GPIO | Signal Name | Connected To | Direction | Notes |
+|:---:|:---:|---|---|:---:|---|
+| 1 | — | 3.3V | Power rail | PWR | Powers sensors |
+| 2 | — | 5V | Power rail | PWR | Powers WS2812B matrix |
+| 3 | GPIO2 | SDA | I²C SDA (shared bus) | I/O | Color, ALS, Temp, Baro, IMU |
+| 4 | — | 5V | Power rail | PWR | — |
+| 5 | GPIO3 | SCL | I²C SCL (shared bus) | OUT | Color, ALS, Temp, Baro, IMU |
+| 6 | — | GND | Ground | GND | — |
+| 7 | GPIO4 | — | — | — | NC |
+| 8 | GPIO14 | RX (UART) | GPS TX → Pi RX | IN | L76X GPS UART |
+| 9 | — | GND | Ground | GND | — |
+| 10 | GPIO15 | TX (UART) | GPS RX ← Pi TX | OUT | L76X GPS UART |
+| 11 | GPIO17 | TOF\_EN | 3DToF Enable | OUT | VL53L9CXV0VE enable pin |
+| 12 | GPIO18 | SCK (I2S) | MIC SCK | OUT | INMP441 I²S clock |
+| 13 | GPIO27 | — | — | — | NC |
+| 14 | — | GND | Ground | GND | — |
+| 15 | GPIO22 | GPS\_EN | GPS Enable | OUT | L76KB-A58 enable |
+| 16 | GPIO23 | — | — | — | NC |
+| 17 | — | 3.3V | Power rail | PWR | — |
+| 18 | GPIO24 | — | — | — | NC |
+| 19 | GPIO10 | — | — | — | NC |
+| 20 | — | GND | Ground | GND | — |
+| 21 | GPIO9 | — | — | — | NC |
+| 22 | GPIO25 | — | — | — | NC |
+| 23 | GPIO11 | SCK (SPI) | — | — | NC |
+| 24 | GPIO8 | — | — | — | NC |
+| 25 | — | GND | Ground | GND | — |
+| 26 | GPIO7 | — | — | — | NC |
+| 27 | ID\_SD | EEPROM SDA | HAT ID EEPROM | I/O | HAT spec |
+| 28 | ID\_SC | EEPROM SCL | HAT ID EEPROM | OUT | HAT spec |
+| 29 | GPIO5 | — | — | — | NC |
+| 30 | — | GND | Ground | GND | — |
+| 31 | GPIO6 | C\_INT | Color Sensor Interrupt | IN | TCS34725FN INT pin |
+| 32 | GPIO12 | — | — | — | NC |
+| 33 | GPIO13 | TOF\_INT | 3DToF Interrupt | IN | VL53L9CXV0VE INT pin |
+| 34 | — | GND | Ground | GND | — |
+| 35 | GPIO19 | WS (I2S) | MIC WS | OUT | INMP441 word select |
+| 36 | GPIO16 | MIC\_EN | Microphone Enable | OUT | INMP441 enable |
+| 37 | GPIO26 | — | — | — | NC |
+| 38 | GPIO20 | DIN (I2S) | MIC SD | IN | INMP441 data |
+| 39 | — | GND | Ground | GND | — |
+| 40 | GPIO21 | BARO\_INT | Barometer Interrupt | IN | LPS22HHTR INT pin |
+
+| Peripheral | Interface | GPIO Pins Used |
+|---|:---:|---|
+| **Color Sensor** (TCS34725FN) | I²C | GPIO2 (SDA), GPIO3 (SCL), GPIO6 (INT) |
+| **ALS** (VEML7700-TR) | I²C | GPIO2 (SDA), GPIO3 (SCL) |
+| **Temperature** (MCP9808) | I²C | GPIO2 (SDA), GPIO3 (SCL) |
+| **Barometer** (LPS22HHTR) | I²C | GPIO2 (SDA), GPIO3 (SCL), GPIO21 (INT) |
+| **IMU** (BNO080) | I²C | GPIO2 (SDA), GPIO3 (SCL) |
+| **3D ToF LiDAR** (VL53L9CXV0VE) | I²C | GPIO2 (SDA), GPIO3 (SCL), GPIO17 (EN), GPIO13 (INT) |
+| **GPS** (L76KB-A58) | UART | GPIO14 (RX), GPIO15 (TX), GPIO22 (EN) |
+| **Microphone** (INMP441) | I²S | GPIO12 (SCK), GPIO19 (WS), GPIO20 (SD), GPIO16 (EN) |
+| **RGB LED Matrix** (25× WS2812B) | 1-Wire | GPIO21¹ |
+
+# I²C Address Map
+
+| Peripheral | I²C Address |
+|---|:---:|
+| TCS34725FN (Color) | `0x29` |
+| VEML7700-TR (ALS) | `0x10` |
+| MCP9808 (Temp) | `0x18` |
+| LPS22HHTR (Baro) | `0x5C` or `0x5D` |
+| BNO080 (IMU) | `0x4A` or `0x4B` |
+| VL53L9CXV0VE (ToF) | `0x52` |
 
 # PCB 
 There are 4 layer but i could have easy done it in 2 layes but i didn't want to disterb the GPS module and tracing every vcc and gnd so i used 4 layer's with confi of 
