@@ -1,34 +1,36 @@
 Item No.,Item Name,Description,Quantity,Price per Unit ($),Total Price ($),Link
-1,VL53L9CXV0VE/1,3DToF,1,—,—,LCSC ↗
-2,VEML7700-TR,ALS,1,$0.1073,$0.1073,LCSC ↗
-3,BNO080,BNO080 IMU,1,$0.3798,$0.3798,LCSC ↗
-4,CL03A104KO3NNNC,"C1,C2,C4,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C17,C22,C23,C24,C25,C26,C27,C28,C29",22,$0.0005,$0.0110,LCSC ↗
-5,0402CG220J500NT,"C3,C5",2,$0.0009,$0.0018,LCSC ↗
-6,FVH010ADA101M0554,C16,1,$0.0052,$0.0052,LCSC ↗
-8,GRM0332C1H101JA01D,C19,1,$0.0005,$0.0005,LCSC ↗
-9,CM03X5R475M06AH055,C20,1,$0.0082,$0.0082,LCSC ↗
-10,5017,"CN1,CN2",2,$0.0059,$0.0118,LCSC ↗
-11,TCS34725FN,Color Sensor,1,$0.9413,$0.9413,LCSC ↗
-12,L76KB-A58,GPS Module L76X,1,$0.6528,$0.6528,LCSC ↗
-13,U.FL-R-SMT-1(10),JP1,1,$0.0336,$0.0336,LCSC ↗
-14,LQP03TN47NH02D,L1,1,$0.0009,$0.0009,LCSC ↗
-15,KT-0805W,LED1,1,$0.0030,$0.0030,LCSC ↗
-16,YLED0402P,LED3,1,$0.0025,$0.0025,LCSC ↗
-17,INMP441,MIC1,1,$3.6796,$3.6796,LCSC ↗
-18,BSS138,"Q1,Q2,Q3,Q4,Q5,Q6",6,$0.0021,$0.0126,LCSC ↗
-19,CJ1012,Q7,1,$0.0062,$0.0062,LCSC ↗
-20,FRC0201F4701TS,"R1,R2,R4,R5,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R23,R25",18,$0.0002,$0.0036,LCSC ↗
-21,RC0201JR-0710KL,"R3,R6,R7",3,$0.0002,$0.0006,LCSC ↗
-22,CRCW04020000Z0ED,"R8,R9,R22,R26,R27",5,$0.0005,$0.0025,LCSC ↗
-23,RMC04022.7K1%N,"R24,R28",2,$0.0004,$0.0008,LCSC ↗
-24,BX-TS-26-3425TP,"RST,U4",2,$0.0071,$0.0142,LCSC ↗
-25,MCP9808-E/MS,Temp.,1,$0.2850,$0.2850,LCSC ↗
-26,40-Pin Female Header,U1,1,—,—,LCSC ↗
-27,WS2812B-2427-V6,"U6,U7,U8,U9,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19,U20,U21,U22,U23,U24,U25,U27,U28,U29,U30,U31",25,$0.0158,$0.3950,LCSC ↗
-28,LPS22HHTR,U34,1,$0.3918,$0.3918,LCSC ↗
-29,AMS1117-3.3V,U35,1,$0.0096,$0.0096,LCSC ↗
-30,AMS1117-1.2V,U36,1,—,—,LCSC ↗
-31,AMS1117-1.8V,U37,1,$0.0078,$0.0078,LCSC ↗
-32,SC-32S32.768kHz20PPM12.5pF,X1,1,$0.0269,$0.0269,LCSC ↗
-33,Custom PCB,"Pi Essential HAT PCB (JLCPCB, 5pcs)",5,$1.0000,$5.0000,JLCPCB ↗
-,GRAND TOTAL,,,,$12.00,
+*,Raspberry Pi 4/5,NOT INCLUDED - 40-Pin GPIO HAT,1,NOT INCLUDED,NOT INCLUDED,https://www.raspberrypi.com/products/
+1,VL53L9CXV0VE/1,3D Time-of-Flight LiDAR Sensor,1,—,—,https://www.lcsc.com/product-detail/C9900262238.html
+2,VEML7700-TR,Ambient Light Sensor I2C,1,0.1073,0.1073,https://www.lcsc.com/product-detail/C504893.html
+3,BNO080,9-DOF IMU with sensor fusion,1,0.3798,0.3798,https://www.lcsc.com/product-detail/C717991.html
+4,CL03A104KO3NNNC,100nF 0201 Ceramic Capacitor,22,0.0005,0.0110,https://www.lcsc.com/product-detail/C307380.html
+5,0402CG220J500NT,22pF 0402 Ceramic Capacitor,2,0.0009,0.0018,https://www.lcsc.com/product-detail/C1555.html
+6,FVH010ADA101M0554,100uF Electrolytic Capacitor,1,0.0052,0.0052,https://www.lcsc.com/product-detail/C7469983.html
+7,DNP,Do Not Populate,2,—,—,
+8,GRM0332C1H101JA01D,100pF 0201 Ceramic Capacitor,1,0.0005,0.0005,https://www.lcsc.com/product-detail/C5354870.html
+9,CM03X5R475M06AH055,4.7uF 0201 Ceramic Capacitor,1,0.0082,0.0082,https://www.lcsc.com/product-detail/C253012.html
+10,5017,2x20 40-Pin GPIO Female Header,2,0.0059,0.0118,https://www.lcsc.com/product-detail/C9900015874.html
+11,TCS34725FN,Color Sensor RGB I2C,1,0.9413,0.9413,https://www.lcsc.com/product-detail/C2649487.html
+12,L76KB-A58,GPS Module L76X GNSS,1,0.6528,0.6528,https://www.lcsc.com/product-detail/C2916234.html
+13,U.FL-R-SMT-1(10),U.FL RF Antenna Connector,1,0.0336,0.0336,https://www.lcsc.com/product-detail/C88373.html
+14,LQP03TN47NH02D,47nH 0201 Inductor,1,0.0009,0.0009,https://www.lcsc.com/product-detail/C162618.html
+15,KT-0805W,LED White 0805,1,0.0030,0.0030,https://www.lcsc.com/product-detail/C34499.html
+16,YLED0402P,LED Yellow 0402,1,0.0025,0.0025,https://www.lcsc.com/product-detail/C41366936.html
+17,INMP441,MEMS I2S Microphone,1,3.6796,3.6796,https://www.lcsc.com/product-detail/C5438445.html
+18,BSS138,N-Channel MOSFET SOT-23 Logic Level,6,0.0021,0.0126,https://www.lcsc.com/product-detail/C3015220.html
+19,CJ1012,NPN Transistor SOT-523,1,0.0062,0.0062,https://www.lcsc.com/product-detail/C2991967.html
+20,FRC0201F4701TS,4.7kohm 0201 Resistor,18,0.0002,0.0036,https://www.lcsc.com/product-detail/C7467278.html
+21,RC0201JR-0710KL,10kohm 0201 Resistor,3,0.0002,0.0006,https://www.lcsc.com/product-detail/C138117.html
+22,CRCW04020000Z0ED,0ohm 0402 Jumper Resistor,5,0.0005,0.0025,https://www.lcsc.com/product-detail/C190119.html
+23,RMC04022.7K1%N,2.7kohm 0402 Resistor,2,0.0004,0.0008,https://www.lcsc.com/product-detail/C325419.html
+24,BX-TS-26-3425TP,Tactile Push Button SMD,2,0.0071,0.0142,https://www.lcsc.com/product-detail/C18078118.html
+25,MCP9808-E/MS,Temperature Sensor I2C MSOP-8,1,0.2850,0.2850,https://www.lcsc.com/product-detail/C94847.html
+26,40-Pin Female Header,2x20 Pin 2.54mm Female Header for Pi HAT,1,0.2000,0.2000,https://www.lcsc.com/product-detail/C529316.html
+27,WS2812B-2427-V6,Addressable RGB LED 2.7x2.4mm,25,0.0158,0.3950,https://www.lcsc.com/product-detail/C52941389.html
+28,LPS22HHTR,Barometric Pressure Sensor I2C/SPI,1,0.3918,0.3918,https://www.lcsc.com/product-detail/C2827824.html
+29,AMS1117-3.3V,LDO 3.3V 1A SOT-223,1,0.0096,0.0096,https://www.lcsc.com/product-detail/C2688239.html
+30,AMS1117-1.2V,LDO 1.2V 1A SOT-223,1,0.0851,0.0851,https://www.lcsc.com/product-detail/C14529.html
+31,AMS1117-1.8V,LDO 1.8V 1A SOT-223,1,0.0078,0.0078,https://www.lcsc.com/product-detail/C7380514.html
+32,SC-32S 32.768kHz,32.768kHz Crystal Oscillator,1,0.0269,0.0269,https://www.lcsc.com/product-detail/C97606.html
+33,Custom PCB,Pi Essential HAT PCB - JLCPCB 5pcs,5,1.0000,5.0000,https://jlcpcb.com
+,GRAND TOTAL,,,,$12.2810,
